@@ -1,8 +1,9 @@
 # Sample config file: https://github.com/dashingcode/front-cover/blob/master/_config.yml
 # Site settings
 name: Omar Sahl
-description: "Hey, I’m a Software Engineer from Cairo, Egypt and currently based in Novosibirsk, Russia."
-description1: "Let's Get In Touch!"
+description: "Hey, I’m a Software Engineer from Cairo, Egypt 🇪🇬"
+description1: "Currently based in Novosibirsk, Russia 🇷🇺"
+description2: "Let's Get In Touch!"
 url: "https://omarsahl.github.io/"
 title: "Omar Sahl"
 
@@ -22,7 +23,7 @@ avatar: yes
 avatar_img_path: "https://avatars2.githubusercontent.com/u/20464116?v=3&s=460"
 
 front_img: yes
-front_img_path: "https://source.unsplash.com/oR0uERTVyD0"
+front_img_path: "https://source.unsplash.com/deagK9-Dmt0/1920x1080"
 #front_img_path: "https://external.url/image.jpg"
 
 favicon_img: yes

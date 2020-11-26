@@ -1,7 +1,11 @@
+html {
+    height: 100%;
+}
 body {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
     position: absolute; 
+    height: 100%;
     top: 0;
     bottom: 0;
     right: 0;
@@ -31,16 +35,15 @@ h1 {
     font-family: 'Open Sans';
     margin: -10px 0;
 }
-#desc {
+
+.desc {
     color: white;
     font-weight: thin;
+    padding-bottom: 6px;
 }
-#desc1 {
-    color: white;
-    padding-bottom: 20px;
-    font-weight: thin;
-}
+
 .content {
+    height: 100%;
     padding-top: 90px;
     padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.5);
