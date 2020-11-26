@@ -1,7 +1,7 @@
 # Sample config file: https://github.com/dashingcode/front-cover/blob/master/_config.yml
 # Site settings
 name: Omar Sahl
-description: "Hey, I’m a Software Engineer based in Cairo, Egypt."
+description: "Hey, I’m a Software Engineer from Cairo, Egypt and currently based in Novosibirsk, Russia."
 description1: "Let's Get In Touch!"
 url: "https://omarsahl.github.io/"
 title: "Omar Sahl"
@@ -13,6 +13,7 @@ facebook_username: omarsahlf
 email: os@omarsahl.com
 twitter_username: omarsahl_
 linkedin_username: omarsahl
+instagram_username: omarsahl_
 
 avatar: yes
 #avatar_img_path: "imgs/avatar.jpg""
