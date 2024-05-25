@@ -1,3 +1,6 @@
+export const resumeUrl =
+  'https://docs.google.com/document/d/1AcoYscS_Fe11Dt4GvcaiNkNAAfDN5ekCMfrSK6P5EVY/edit?usp=sharing';
+
 export const workExperience = [
   {
     order: 1,
