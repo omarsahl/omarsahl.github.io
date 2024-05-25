@@ -2,17 +2,16 @@ import React from 'react';
 import ChipList from './chiplist';
 import { projects } from '../data/osdata';
 import LinkArrow from '../icons/linkarrow';
+import SectionLabel from './section_label';
 
 export default function Projects() {
   return (
     <section
       id="projects"
-      className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+      className="mb-24 scroll-mt-16 md:mb-28 lg:scroll-mt-24"
       aria-label="Selected Projects"
     >
-      <h2 className="pb-5 text-lg font-bold tracking-normal text-strawberry-600 md:pb-10 md:text-xl">
-        Selected Projects
-      </h2>
+      <SectionLabel label="Projects" />
       <ol className="group/projects">
         {projects.map((project) => (
           <li className="mb-12" key={project.order}>

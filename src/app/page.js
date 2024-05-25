@@ -5,6 +5,7 @@ import Projects from './components/projects';
 import Footer from './components/footer';
 import MouseTracker from './components/mousetracker';
 import NavTabs from './components/nav';
+import Certification from './components/certification';
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
           <main className="pt-24 lg:w-6/12 lg:py-24">
             <Experience />
             <Projects />
+            <Certification />
             <Footer />
           </main>
         </div>

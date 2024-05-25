@@ -6,6 +6,11 @@ export default function NavTabs() {
       <ul className="mt-16 w-max">
         <NavItem url="#experience" label="Experience" key="experience" />
         <NavItem url="#projects" label="Projects" key="projects" />
+        <NavItem
+          url="#certification"
+          label="Certification"
+          key="certification"
+        />
       </ul>
     </nav>
   );

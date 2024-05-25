@@ -2,6 +2,7 @@ import React from 'react';
 import ChipList from './chiplist';
 import { workExperience, resumeUrl } from '../data/osdata';
 import LinkArrow from '../icons/linkarrow';
+import SectionLabel from './section_label';
 
 export default function Experience() {
   return (
@@ -10,9 +11,7 @@ export default function Experience() {
       className="mb-24 scroll-mt-16 md:mb-28 lg:scroll-mt-24"
       aria-label="Work Experience"
     >
-      <h2 className="pb-5 text-lg font-bold tracking-normal text-strawberry-600 md:pb-10 md:text-xl">
-        Experience
-      </h2>
+      <SectionLabel label="Experience" />
       <ol className="group/experiences">
         {workExperience.map((experience) => (
           <li className="mb-12" key={experience.order}>

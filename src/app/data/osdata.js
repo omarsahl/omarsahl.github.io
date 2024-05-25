@@ -6,7 +6,7 @@ export const workExperience = [
     order: 1,
     title: 'Android Engineer',
     company: 'Umma Life',
-    duration: 'May 2023 - Present',
+    duration: 'May 2023 — Present',
     url: 'https://app.ummalife.com/',
     description: [
       "Develop and enhance Umma Life's native Android app, focusing on user experience and functionality.",
@@ -21,7 +21,7 @@ export const workExperience = [
     order: 2,
     title: 'Freelance Software Engineer',
     company: 'Freelance',
-    duration: 'Jul 2018 - Feb 2023',
+    duration: 'Jul 2018 — Feb 2023',
     description: [
       'Maintained a Top Rated Freelancer status on Upwork.com, a distinction awarded to the top 10% of freelancers who demonstrate consistent high-quality work and client satisfaction.',
       'Helped clients globally with diverse software projects, and continuously achieved a job success rate of 100%.',
@@ -41,7 +41,7 @@ export const workExperience = [
     order: 3,
     title: 'Junior Software Engineer',
     company: 'SmartCom-EG',
-    duration: 'Sep 2017 - Nov 2017,\nFeb 2018 - Apr 2018',
+    duration: 'Sep 2017 — Nov 2017, Feb 2018 — Apr 2018',
     description: [
       'Spearheaded the design and development of multiple mobile app projects from start until they were available on the Google Play app store.',
       'Executed native Android projects utilizing Java, Kotlin, Android app architectures (MVC and MVP), communication with REST APIs, DI, SQLite (Room and other ORMs), voice recognition (Speech-to-Text and Text-to-Speech), and reactive programming with the ReactiveX APIs (RxJava, RxKotlin, and RxAndroid).',
@@ -53,7 +53,7 @@ export const workExperience = [
     order: 4,
     title: 'Software Developer (Internship)',
     company: 'SmartCom-EG',
-    duration: 'Jul 2017 - Aug 2017',
+    duration: 'Jul 2017 — Aug 2017',
     description: [
       "Developed an Android application that aimed at assisting deaf and illiterate individuals in using ATMs. The app functioned by capturing a photo of the ATM screen, analyzing the image, and then displaying a video in gesture language to interpret the screen's content. The project aligned with the client’s specifications with the required accuracy of >98%.",
       'Utilized Java, the Android SDK, and OCR technology to create an effective and user-friendly application.',
@@ -423,6 +423,22 @@ export const projects = [
       'Custom Views',
     ],
     order: 900,
+  },
+];
+
+export const certifications = [
+  {
+    order: 1,
+    name: 'Google Developer Challenge Scholarship',
+    date: 'Feb 2018',
+    description: [
+      'Accepted for the Google Developer Challenge Scholarship from tens of thousands of applicants.',
+      'Received and successfully completed Udacity’s full Android Developer Nanodegree program.',
+    ],
+    url: {
+      name: 'View Certificate',
+      url: 'https://confirm.udacity.com/NAVPTAUZ',
+    },
   },
 ];
 
