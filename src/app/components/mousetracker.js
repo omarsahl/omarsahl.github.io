@@ -23,7 +23,7 @@ export default function MouseTracker() {
 
   return (
     <div
-      className="pointer-events-none absolute inset-0 z-30 transition duration-300"
+      className="pointer-events-none absolute inset-0 z-30 hidden transition duration-300 lg:block"
       style={style}
     />
   );

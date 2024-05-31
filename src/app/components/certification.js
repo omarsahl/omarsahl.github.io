@@ -7,7 +7,7 @@ export default function Certification() {
   return (
     <section
       id="certification"
-      className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+      className="mb-24 scroll-mt-16 md:mb-28 lg:scroll-mt-24"
       aria-label="Certification"
     >
       <SectionLabel label="Certification" />

@@ -442,6 +442,17 @@ export const certifications = [
   },
 ];
 
+export const articles = [
+  {
+    order: 1,
+    title:
+      'Kotlin 2.0 Language Features from KotlinConf 2024: What’s New and What’s Next',
+    date: 'May 2024',
+    url: 'https://medium.com/@omarsahl/kotlin-language-features-from-kotlinconf-2024-whats-new-and-what-s-next-a4668eae5e9d',
+    thumbnail: '/articles/kotlin2.png',
+  },
+];
+
 export const socials = [
   {
     title: 'GitHub',

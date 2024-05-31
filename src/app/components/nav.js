@@ -11,6 +11,7 @@ export default function NavTabs() {
           label="Certification"
           key="certification"
         />
+        <NavItem url="#articles" label="Articles" key="articles" />
       </ul>
     </nav>
   );
