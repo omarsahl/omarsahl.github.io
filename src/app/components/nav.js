@@ -4,14 +4,10 @@ export default function NavTabs() {
   return (
     <nav className="nav hidden lg:block" aria-label="Navigation">
       <ul className="mt-16 w-max">
-        <NavItem url="#experience" label="Experience" key="experience" />
-        <NavItem url="#projects" label="Projects" key="projects" />
-        <NavItem
-          url="#certification"
-          label="Certification"
-          key="certification"
-        />
-        <NavItem url="#articles" label="Articles" key="articles" />
+        <NavItem url="#experience" label="Experience" />
+        <NavItem url="#projects" label="Projects" />
+        <NavItem url="#certification" label="Certification" />
+        <NavItem url="#blog" label="Blog" />
       </ul>
     </nav>
   );

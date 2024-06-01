@@ -1,20 +1,20 @@
 import React from 'react';
 import SectionLabel from './section_label';
-import { articles } from '../data/osdata';
+import { blogPosts } from '../data/osdata';
 import LinkArrow from '../icons/linkarrow';
 
-export default function Articles() {
+export default function Blog() {
   return (
     <section
-      id="articles"
+      id="blog"
       className="mb-20 scroll-mt-16 md:mb-28 lg:mb-40 lg:scroll-mt-24"
-      aria-label="Articles"
+      aria-label="Blog Posts"
     >
-      <SectionLabel label="Articles" />
-      <ol className="group/articles">
-        {articles.map((article) => (
-          <li className="mb-12" key={article.order}>
-            <ArticleEntry {...article} />
+      <SectionLabel label="Blog" />
+      <ol className="group/posts">
+        {blogPosts.map((post) => (
+          <li className="mb-12" key={post.order}>
+            <BlogPostEntry {...post} />
           </li>
         ))}
       </ol>
@@ -22,9 +22,9 @@ export default function Articles() {
   );
 }
 
-function ArticleEntry({ title, date, url, thumbnail }) {
+function BlogPostEntry({ title, date, url, thumbnail }) {
   return (
-    <div className="group relative grid grid-cols-8 gap-4 transition-all sm:items-center sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/articles:opacity-70">
+    <div className="group relative grid grid-cols-8 gap-4 transition-all sm:items-center sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/posts:opacity-70">
       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-gray-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
       <img
         className="z-10 col-span-2 rounded border-2 border-gray-200/10 transition group-hover:border-gray-200/30 sm:col-span-2"

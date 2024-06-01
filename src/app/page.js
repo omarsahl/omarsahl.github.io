@@ -6,7 +6,7 @@ import Footer from './components/footer';
 import MouseTracker from './components/mousetracker';
 import NavTabs from './components/nav';
 import Certification from './components/certification';
-import Articles from './components/articles';
+import Blog from './components/blog';
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
             <Experience />
             <Projects />
             <Certification />
-            <Articles />
+            <Blog />
             <Footer />
           </main>
         </div>
