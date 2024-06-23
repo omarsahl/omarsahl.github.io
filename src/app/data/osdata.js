@@ -450,7 +450,16 @@ export const blogPosts = [
       'Kotlin 2.0 Language Features from KotlinConf 2024: What’s New and What’s Next',
     date: 'May 2024',
     url: 'https://medium.com/@omarsahl/kotlin-language-features-from-kotlinconf-2024-whats-new-and-what-s-next-a4668eae5e9d',
-    thumbnail: '/blog/kotlin2.png',
+    thumbnail:
+      '/blog/kotlin-language-features-from-kotlinconf-2024-whats-new-and-whats-next.png',
+  },
+  {
+    order: 2,
+    title: 'Advanced Kotlin: Exploring Lesser-Known Syntax and Features',
+    date: 'Jun 2024',
+    url: 'https://medium.com/@omarsahl/advanced-kotlin-exploring-the-lesser-known-syntax-and-features-0f49e5da9c15',
+    thumbnail:
+      '/blog/advanced-kotlin-exploring-the-lesser-known-syntax-and-features.jpg',
   },
 ];
 
