@@ -4,10 +4,19 @@ export const resumeUrl =
 export const workExperience = [
   {
     order: 1,
+    title: 'Senior Mobile Developer',
+    company: 'NEXT Munich',
+    duration: 'Jul 2024 — Present',
+    url: 'https://next-munich.com',
+    description: [],
+    skills: ['Kotlin', 'Android SDK', 'Jetpack Compose'],
+  },
+  {
+    order: 2,
     title: 'Android Engineer',
     company: 'Umma Life',
-    duration: 'May 2023 — Present',
-    url: 'https://app.ummalife.com/',
+    duration: 'May 2023 — Jun 2024',
+    url: 'https://app.ummalife.com',
     description: [
       "Develop and enhance Umma Life's native Android app, a social network app, focusing on user experience and functionality.",
       'Lead a team of 3 Android developers in feature implementation, a comprehensive UI overhaul, migration to Jetpack Compose, and ongoing maintenance.',
