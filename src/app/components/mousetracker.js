@@ -18,7 +18,7 @@ export default function MouseTracker() {
   }, []);
 
   const style = {
-    background: `radial-gradient(700px at ${mousePos.x}px ${mousePos.y}px, rgba(244, 39, 78, 0.11), transparent)`,
+    background: `radial-gradient(700px at ${mousePos.x}px ${mousePos.y}px, rgba(244, 39, 78, 0.08), transparent)`,
   };
 
   return (
