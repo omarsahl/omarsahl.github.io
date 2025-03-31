@@ -470,6 +470,24 @@ export const blogPosts = [
     thumbnail:
       '/blog/advanced-kotlin-exploring-the-lesser-known-syntax-and-features.jpg',
   },
+  {
+    order: 3,
+    title:
+      'Animation and Masking in Jetpack Compose with the grahpicsLayer() and Drawing Modifiers',
+    date: 'Sep 2024',
+    url: 'https://proandroiddev.com/animation-and-masking-in-jetpack-compose-with-the-grahpicslayer-and-drawing-modifiers-138d3496c624',
+    thumbnail:
+      '/blog/animation-and-masking-in-jetpack-compose-with-the-grahpicslayer-and-drawing-modifiers.webp',
+  },
+  {
+    order: 4,
+    title:
+      'Write Testable Time-Dependent Coroutine Code in Kotlin: Avoid System.currentTimeMillis',
+    date: 'Mar 2025',
+    url: 'https://medium.com/@omarsahl/write-testable-time-dependent-coroutine-code-in-kotlin-avoid-system-currenttimemillis-fb9b7eb1ddf9',
+    thumbnail:
+      '/blog/write-testable-time-dependent-coroutine-code-in-kotlin-avoid-system-currenttimemillis.webp',
+  },
 ];
 
 export const socials = [
