@@ -4,7 +4,7 @@ export const resumeUrl =
 export const workExperience = [
   {
     order: 1,
-    title: 'Senior Mobile Developer',
+    title: 'Senior Android Engineer',
     company: 'NEXT Munich',
     duration: 'Jul 2024 — Present',
     url: 'https://next-munich.com',
