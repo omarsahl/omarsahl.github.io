@@ -18,7 +18,7 @@ export default function Home() {
         <h1 aria-hidden="true">Hello!</h1>
       </div>
       <MouseTracker />
-      <div className="mx-auto min-h-screen max-w-screen-2xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div className="mx-auto min-h-screen max-w-(--breakpoint-2xl) px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           <div className="pb-10 pt-3 lg:sticky lg:top-0 lg:max-h-screen lg:px-8 lg:py-24">
             <img
