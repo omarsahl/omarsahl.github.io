@@ -5,7 +5,7 @@ export const workExperience = [
   {
     order: 1,
     title: 'Senior Android Engineer',
-    company: 'NEXT Munich',
+    company: 'NEXT Munich GmbH',
     duration: 'Jul 2024 — Present',
     url: 'https://next-munich.com',
     description: [],

@@ -1,6 +1,6 @@
 import React from 'react';
 import ChipList from './chiplist';
-import { workExperience, resumeUrl } from '../data/osdata';
+import { workExperience } from '../data/osdata';
 import LinkArrow from '../icons/linkarrow';
 import SectionLabel from './section_label';
 
@@ -19,22 +19,6 @@ export default function Experience() {
           </li>
         ))}
       </ol>
-      <div className="mt-12">
-        <a
-          className="group/url inline-flex items-baseline text-base font-semibold leading-tight text-white hover:text-strawberry-600 focus-visible:text-strawberry-600"
-          href={resumeUrl}
-          target="_blank"
-          rel="noreferrer noopener"
-          aria-label="View full résumé (opens in a new tab)"
-        >
-          <span>
-            View full résumé
-            <span className="inline-block">
-              <LinkArrow className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/url:-translate-y-1 group-hover/url:translate-x-1 group-focus-visible/url:-translate-y-1 group-focus-visible/url:translate-x-1 motion-reduce:transition-none" />
-            </span>
-          </span>
-        </a>
-      </div>
     </section>
   );
 }
