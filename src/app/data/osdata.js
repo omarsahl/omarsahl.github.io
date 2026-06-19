@@ -502,11 +502,6 @@ export const socials = [
     icon: 'linkedin',
   },
   {
-    title: 'X (previously Twitter)',
-    url: 'https://x.com/omarsahl_',
-    icon: 'x',
-  },
-  {
     title: 'Instagram',
     url: 'https://www.instagram.com/omarsahl_',
     icon: 'instagram',
