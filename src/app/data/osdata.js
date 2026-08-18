@@ -488,6 +488,15 @@ export const blogPosts = [
     thumbnail:
       '/blog/write-testable-time-dependent-coroutine-code-in-kotlin-avoid-system-currenttimemillis.webp',
   },
+  {
+    order: 5,
+    title:
+      'Composition Over Inheritance in Android ViewModels',
+    date: 'Aug 2026',
+    url: 'https://medium.com/@omarsahl/composition-over-inheritance-in-android-viewmodels-51f3efba5f90',
+    thumbnail:
+      '/blog/danielle-claude-belanger-ReJiQwmWAMQ-unsplash.jpg',
+  },
 ];
 
 export const socials = [
